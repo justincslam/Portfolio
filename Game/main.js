@@ -3,10 +3,6 @@ var firstUpgradeCost = 0;
 var firstUpgradeNumber = 0;
 var secondUpgradeNumber = 0;
 
-function save(){
-	var save = {
-		
-
 function buttonClick(number){
 	coin = coin + number;
 	document.getElementById("numberCoins").innerHTML = coin;
